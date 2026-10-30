@@ -654,8 +654,10 @@ $ ./iftest.sh
 ## OUTPUT
 <img width="1091" height="466" alt="image" src="https://github.com/user-attachments/assets/1c824f6f-69b8-4ede-b97f-fed67235e8cc" />
 # looking for a possible value using elif
+
 cat > elifcheck.sh 
-```bash
+
+```
 \#!/bin/bash
 if [ $USER = Ram ]
 then
@@ -679,12 +681,15 @@ fi
 $ chmod 755 elifcheck.sh
  
 $ ./elifcheck.sh 
+
 ## OUTPUT
 
 
 # testing compound comparisons
+
 cat> ifcompound.sh 
-```bash
+
+```
 \#!/bin/bash
 if [ -d $HOME ] && [ -w $HOME ]
 then
